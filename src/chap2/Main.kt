@@ -1,12 +1,11 @@
 package chap2
 
 fun main(){
-    val p = PrintBanner("Hello")
-    println(p.getString())
+    val p: Print = PrintBanner("Hello")
     p.printWeak()
     p.printStrong()
 
-    val pForClass = PrintBannerForClass("helloForClass")
+    val pForClass: PrintForClass = PrintBannerForClass("helloForClass")
     pForClass.printStrong()
     pForClass.printWeak()
 
