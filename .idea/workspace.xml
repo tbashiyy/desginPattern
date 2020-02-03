@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac67913-0166-4ad0-aae3-d1b4ec40bd24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap6/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap6/MessageBox.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap6/UnderlinePen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap6/framework/Manager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap6/framework/Product.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/Builder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/Director.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/HTMLBuilder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap7/TextBuilder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/designPattern/META-INF/designPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/META-INF/designPattern.kotlin_module" afterDir="false" />
     </list>
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -42,20 +42,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Kotlin.chap6.MainKt">
-    <configuration name="chap2.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="designPattern" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap2.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.chap7.MainKt">
     <configuration name="chap3.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <option name="VM_PARAMETERS" />
@@ -108,13 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="chap7.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="designPattern" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="chap7.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chap7.MainKt" />
         <item itemvalue="Kotlin.chap6.MainKt" />
         <item itemvalue="Kotlin.chap5.MainKt" />
         <item itemvalue="Kotlin.chap4.MainKt" />
         <item itemvalue="Kotlin.chap3.MainKt" />
-        <item itemvalue="Kotlin.chap2.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,34 +136,34 @@
       <screen x="-1920" y="-276" width="1920" height="1057" />
     </state>
     <state x="-1360" y="-82" key="#Project_Structure/0.23.1440.826/-1920.-276.1920.1057@-1920.-276.1920.1057" timestamp="1580217905792" />
-    <state x="502" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1580428261883">
+    <state x="502" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1580736935396">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
-    <state x="502" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580428261883" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1580654294799">
+    <state x="502" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580736935396" />
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1580738376482">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720844" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580654294799" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580435422266" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1580654294799">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580738376482" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580693142308" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1580738376481">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720843" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580654294799" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580435422265" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1580654294798">
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580738376481" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580693142306" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1580738376481">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720843" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580654294798" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580435422264" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1580654294799">
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580738376481" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580693142305" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1580738376482">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720844" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580654294799" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580435422265" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580738376482" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580693142307" />
     <state width="1398" height="265" key="GridCell.Tab.1.bottom" timestamp="1580351444505">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
@@ -188,5 +188,9 @@
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state x="482" y="80" key="refactoring.ChangeSignatureDialog/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580651007208" />
+    <state x="385" y="188" width="670" height="676" key="search.everywhere.popup" timestamp="1580735817083">
+      <screen x="0" y="23" width="1440" height="841" />
+    </state>
+    <state x="385" y="188" width="670" height="676" key="search.everywhere.popup/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1580735817083" />
   </component>
 </project>
