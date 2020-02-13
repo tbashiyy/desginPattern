@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac67913-0166-4ad0-aae3-d1b4ec40bd24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap10/Hand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap10/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap10/Player.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap10/ProbStrategy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap10/Strategy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap10/WinningStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap11/Directory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap11/Entry.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap11/File.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap11/FileTreatmentException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap11/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/designPattern/META-INF/designPattern.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/designPattern/META-INF/designPattern.kotlin_module" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -49,7 +49,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Kotlin.chap10.MainKt">
+  <component name="RunManager" selected="Kotlin.chap11.MainKt">
     <configuration name="chap10.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <option name="VM_PARAMETERS" />
@@ -63,14 +63,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chap6.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chap11.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="designPattern" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chap6.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="chap11.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,19 +116,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.chap6.MainKt" />
       <item itemvalue="Kotlin.chap7.MainKt" />
       <item itemvalue="Kotlin.chap8.MainKt" />
       <item itemvalue="Kotlin.chap9.MainKt" />
       <item itemvalue="Kotlin.chap10.MainKt" />
+      <item itemvalue="Kotlin.chap11.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.chap11.MainKt" />
         <item itemvalue="Kotlin.chap10.MainKt" />
         <item itemvalue="Kotlin.chap9.MainKt" />
         <item itemvalue="Kotlin.chap8.MainKt" />
         <item itemvalue="Kotlin.chap7.MainKt" />
-        <item itemvalue="Kotlin.chap6.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,29 +161,29 @@
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state x="502" y="166" key="#com.intellij.ide.util.MemberChooser/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581380409767" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom" timestamp="1581382316025">
+    <state width="1398" height="109" key="GridCell.Tab.0.bottom" timestamp="1581556672232">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.bottom/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720844" />
-    <state width="1398" height="216" key="GridCell.Tab.0.bottom/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581382316025" />
+    <state width="1398" height="109" key="GridCell.Tab.0.bottom/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581556672232" />
     <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580952166036" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center" timestamp="1581382316024">
+    <state width="1398" height="109" key="GridCell.Tab.0.center" timestamp="1581556672232">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.center/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720843" />
-    <state width="1398" height="216" key="GridCell.Tab.0.center/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581382316024" />
+    <state width="1398" height="109" key="GridCell.Tab.0.center/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581556672232" />
     <state width="1398" height="270" key="GridCell.Tab.0.center/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580952166036" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left" timestamp="1581382316023">
+    <state width="1398" height="109" key="GridCell.Tab.0.left" timestamp="1581556672231">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.left/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720843" />
-    <state width="1398" height="216" key="GridCell.Tab.0.left/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581382316023" />
+    <state width="1398" height="109" key="GridCell.Tab.0.left/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581556672231" />
     <state width="1398" height="270" key="GridCell.Tab.0.left/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580952166035" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right" timestamp="1581382316024">
+    <state width="1398" height="109" key="GridCell.Tab.0.right" timestamp="1581556672232">
       <screen x="0" y="23" width="1440" height="841" />
     </state>
     <state width="1398" height="265" key="GridCell.Tab.0.right/0.23.1440.826/-1920.-276.1920.1057@0.23.1440.826" timestamp="1580307720844" />
-    <state width="1398" height="216" key="GridCell.Tab.0.right/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581382316024" />
+    <state width="1398" height="109" key="GridCell.Tab.0.right/0.23.1440.841/-1920.-276.1920.1057@0.23.1440.841" timestamp="1581556672232" />
     <state width="1398" height="270" key="GridCell.Tab.0.right/0.23.1440.841/-2560.-635.2560.1417@0.23.1440.841" timestamp="1580952166036" />
     <state width="1398" height="270" key="GridCell.Tab.1.bottom" timestamp="1580952166037">
       <screen x="0" y="23" width="1440" height="841" />
