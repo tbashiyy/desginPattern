@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac67913-0166-4ad0-aae3-d1b4ec40bd24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap12/Border.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12/Display.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12/FullBorder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12/SideBorder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chap12/StringDisplay.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap12/prac/MultiStringDisplay.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap12/prac/UpDownBorder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chap12/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chap12/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -130,6 +126,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -147,26 +144,54 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1064" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1596028112060">
+    <state x="1064" y="436" key="#com.intellij.ide.util.MemberChooser" timestamp="1596156194739">
       <screen x="0" y="23" width="2560" height="1380" />
     </state>
-    <state x="1064" y="436" key="#com.intellij.ide.util.MemberChooser/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596028112060" />
-    <state width="2518" height="247" key="GridCell.Tab.0.bottom" timestamp="1596026597095">
+    <state x="1064" y="436" key="#com.intellij.ide.util.MemberChooser/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596156194739" />
+    <state width="1603" height="386" key="GridCell.Tab.0.bottom" timestamp="1596158468321">
       <screen x="0" y="23" width="2560" height="1380" />
     </state>
-    <state width="2518" height="247" key="GridCell.Tab.0.bottom/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596026597095" />
-    <state width="2518" height="247" key="GridCell.Tab.0.center" timestamp="1596026597094">
+    <state width="1603" height="386" key="GridCell.Tab.0.bottom/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596158468321" />
+    <state width="2518" height="485" key="GridCell.Tab.0.bottom/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831460" />
+    <state width="1603" height="386" key="GridCell.Tab.0.center" timestamp="1596158468320">
       <screen x="0" y="23" width="2560" height="1380" />
     </state>
-    <state width="2518" height="247" key="GridCell.Tab.0.center/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596026597094" />
-    <state width="2518" height="247" key="GridCell.Tab.0.left" timestamp="1596026597094">
+    <state width="1603" height="386" key="GridCell.Tab.0.center/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596158468320" />
+    <state width="2518" height="485" key="GridCell.Tab.0.center/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831459" />
+    <state width="1603" height="386" key="GridCell.Tab.0.left" timestamp="1596158468319">
       <screen x="0" y="23" width="2560" height="1380" />
     </state>
-    <state width="2518" height="247" key="GridCell.Tab.0.left/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596026597094" />
-    <state width="2518" height="247" key="GridCell.Tab.0.right" timestamp="1596026597095">
+    <state width="1603" height="386" key="GridCell.Tab.0.left/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596158468319" />
+    <state width="2518" height="485" key="GridCell.Tab.0.left/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831458" />
+    <state width="1603" height="386" key="GridCell.Tab.0.right" timestamp="1596158468320">
       <screen x="0" y="23" width="2560" height="1380" />
     </state>
-    <state width="2518" height="247" key="GridCell.Tab.0.right/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596026597095" />
+    <state width="1603" height="386" key="GridCell.Tab.0.right/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596158468320" />
+    <state width="2518" height="485" key="GridCell.Tab.0.right/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831459" />
+    <state width="2518" height="485" key="GridCell.Tab.1.bottom" timestamp="1596067831460">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.bottom/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596029192255" />
+    <state width="2518" height="485" key="GridCell.Tab.1.bottom/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831460" />
+    <state width="2518" height="485" key="GridCell.Tab.1.center" timestamp="1596067831460">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.center/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596029192254" />
+    <state width="2518" height="485" key="GridCell.Tab.1.center/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831460" />
+    <state width="2518" height="485" key="GridCell.Tab.1.left" timestamp="1596067831460">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.left/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596029192254" />
+    <state width="2518" height="485" key="GridCell.Tab.1.left/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831460" />
+    <state width="2518" height="485" key="GridCell.Tab.1.right" timestamp="1596067831460">
+      <screen x="0" y="23" width="1440" height="840" />
+    </state>
+    <state width="2518" height="485" key="GridCell.Tab.1.right/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596029192254" />
+    <state width="2518" height="485" key="GridCell.Tab.1.right/0.23.1440.840/770.-1417.2560.1417/-1790.-1417.2560.1417@0.23.1440.840" timestamp="1596067831460" />
+    <state x="946" y="407" width="670" height="676" key="search.everywhere.popup" timestamp="1596156477700">
+      <screen x="0" y="23" width="2560" height="1380" />
+    </state>
+    <state x="946" y="407" width="670" height="676" key="search.everywhere.popup/-1440.563.1440.877/0.23.2560.1380@0.23.2560.1380" timestamp="1596156477700" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/designPattern$chap8_MainKt.ic" NAME="chap8.MainKt Coverage Results" MODIFIED="1580917486179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
