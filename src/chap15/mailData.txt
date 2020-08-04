@@ -1,0 +1,2 @@
+hoge1@hoge.com=hoge taro
+hoge2@hoge2.com=hoge2 jiro
