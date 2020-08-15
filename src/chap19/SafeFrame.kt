@@ -3,7 +3,6 @@ package chap19
 import java.awt.*
 import java.awt.event.ActionEvent
 import java.awt.event.ActionListener
-import java.lang.System.exit
 import kotlin.system.exitProcess
 
 class SafeFrame(title: String): Frame(title), Context, ActionListener {
