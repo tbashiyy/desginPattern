@@ -15,6 +15,9 @@ fun main() {
         val book: Book = it.next()
         println(book.getName())
     }
+}
 
-
+private fun hoge(): String {
+    val a = "Hello!"
+    return a
 }
